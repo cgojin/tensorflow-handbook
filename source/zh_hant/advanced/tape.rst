@@ -80,4 +80,4 @@
 
 在實際的訓練流程中，我們有時需要對 ``tf.keras.Model`` 模型的部分變量求導，或者對模型不同部分的變量採取不同的優化策略。此時，我們可以通過模型中各個 ``tf.keras.layers.Layer`` 層的 ``variables`` 屬性取出層內的部分變量，並對這部分變量單獨應用優化器。以下示例展示了使用一個持久的 ``tf.GradientTape`` 記錄器，對前節 :ref:`mlp` 中多層感知機的第一層和第二層獨立進行優化的過程。
 
-.. literalinclude:: \_static\code\zh\model\partial_update\main.py
+.. literalinclude:: /_static/code/zh/model/partial_update/main.py
