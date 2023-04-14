@@ -32,7 +32,7 @@
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 # imgmath or mathjax
-extensions = [ 'sphinx.ext.imgmath', 'sphinx.ext.intersphinx']
+extensions = [ 'sphinxcontrib.katex', 'sphinx.ext.intersphinx']
 
 imgmath_latex_preamble = '\\usepackage{braket}\n\\usepackage[UTF8]{ctex}'
 

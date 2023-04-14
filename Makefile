@@ -19,6 +19,7 @@ install:
 	pip3 install sphinx
 	pip3 install sphinx_markdown_builder
 	pip3 install sphinx_rtd_theme
+	pip3 install sphinxcontrib-katex
 
 .PHONHY: watch
 watch:
